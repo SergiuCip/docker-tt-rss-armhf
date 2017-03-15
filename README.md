@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://tt-rss.org/gitlab/fox/tt-rss/wikis/home
+[hub]: https://hub.docker.com/r/lsioarmhf/tt-rss/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,13 +14,11 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/tt-rss
 [![](https://images.microbadger.com/badges/version/lsioarmhf/tt-rss.svg)](https://microbadger.com/images/lsioarmhf/tt-rss "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/tt-rss.svg)](http://microbadger.com/images/lsioarmhf/tt-rss "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/tt-rss.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/tt-rss.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-tt-rss)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-tt-rss/)
-[hub]: https://hub.docker.com/r/lsioarmhf/tt-rss/
 
-[Tiny Tiny RSS][tt-rssurl] is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
+[Tiny Tiny RSS][appurl] is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
 
 
-[![tt-rss](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tt-rss-banner.png)][tt-rssurl]
-[tt-rssurl]: https://tt-rss.org/gitlab/fox/tt-rss/wikis/home
+[![tt-rss](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tt-rss-banner.png)][appurl]
 
 ## Usage
 
