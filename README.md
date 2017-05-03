@@ -1,3 +1,4 @@
+
 [linuxserverurl]: https://linuxserver.io
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
@@ -85,4 +86,5 @@ The site files are in /config/www/tt-rss , you can find config files and themes 
 
 ## Versions
 
++ **03.05.17:** Update to php 7.1x.
 + **24.02.17:** Initial Release.
