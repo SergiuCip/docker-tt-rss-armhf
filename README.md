@@ -3,7 +3,7 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
-[appurl]: https://tt-rss.org/gitlab/fox/tt-rss/wikis/home
+[appurl]: https://tt-rss.org
 [hub]: https://hub.docker.com/r/lsioarmhf/tt-rss/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
@@ -49,7 +49,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `-e PUID` for UserID - see below for explanation
 * `-e TZ` for setting timezone information, eg Europe/London 
 
-It is based on phusion-baseimage with ssh removed, for shell access whilst the container is running do `docker exec -it tt-rss /bin/bash`.
+It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it tt-rss /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -86,6 +86,7 @@ The site files are in /config/www/tt-rss , you can find config files and themes 
 
 ## Versions
 
++ **19.07.17:** Use updated [repository](https://git.tt-rss.org/git/tt-rss) for initial install.
 + **29.05.17:** Rebase to alpine 3.6.
 + **03.05.17:** Update to php 7.1x.
 + **24.02.17:** Initial Release.
