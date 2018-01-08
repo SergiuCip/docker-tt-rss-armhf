@@ -86,6 +86,7 @@ The site files are in /config/www/tt-rss , you can find config files and themes 
 
 ## Versions
 
++ **08.01.18:** Rebase to alpine 3.7.
 + **19.07.17:** Use updated [repository](https://git.tt-rss.org/git/tt-rss) for initial install.
 + **29.05.17:** Rebase to alpine 3.6.
 + **03.05.17:** Update to php 7.1x.
