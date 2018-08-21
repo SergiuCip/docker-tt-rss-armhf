@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.nginx.armhf:3.7
+FROM lsiobase/alpine.nginx.armhf:3.8
 
 # set version label
 ARG BUILD_DATE
@@ -16,7 +16,6 @@ RUN \
 	php7-gd \
 	php7-iconv \
 	php7-intl \
-	php7-json \
 	php7-mcrypt \
 	php7-mysqli \
 	php7-mysqlnd \
@@ -29,7 +28,7 @@ RUN \
  echo "**** link php7 to php ****" && \
  ln -sf /usr/bin/php7 /usr/bin/php
 
-# copy local files
+# copy local files
 COPY root/ /
 
 # ports and volumes
