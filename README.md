@@ -1,27 +1,11 @@
 
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
-[ircurl]: https://www.linuxserver.io/irc/
-[podcasturl]: https://www.linuxserver.io/podcast/
-[appurl]: https://tt-rss.org
 [hub]: https://hub.docker.com/r/lsioarmhf/tt-rss/
 
-THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/tt-rss`
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
-
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
-
-# lsioarmhf/tt-rss
-[![](https://images.microbadger.com/badges/version/lsioarmhf/tt-rss.svg)](https://microbadger.com/images/lsioarmhf/tt-rss "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/tt-rss.svg)](https://microbadger.com/images/lsioarmhf/tt-rss "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/tt-rss.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/tt-rss.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/armhf/armhf-tt-rss)](https://ci.linuxserver.io/job/Docker-Builders/job/armhf/job/armhf-tt-rss/)
+# sergiucc/tt-rss
 
 [Tiny Tiny RSS][appurl] is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
 
-
-[![tt-rss](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tt-rss-banner.png)][appurl]
 
 ## Usage
 
@@ -33,7 +17,7 @@ docker create \
 -e PGID=<gid> -e PUID=<uid> \
 -e TZ=<timezone> \
 -p 80:80 \
-lsioarmhf/tt-rss
+sergiucc/tt-rss
 ```
 
 ## Parameters
@@ -88,6 +72,7 @@ The site files are in /config/www/tt-rss , you can find config files and themes 
 
 ## Versions
 
++ **31.12.19:** Forked project and removed deprecation notices
 + **21.08.18:** Rebase to alpine 3.8.
 + **08.01.18:** Rebase to alpine 3.7.
 + **19.07.17:** Use updated [repository](https://git.tt-rss.org/git/tt-rss) for initial install.
