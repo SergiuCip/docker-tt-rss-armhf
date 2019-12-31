@@ -1,7 +1,4 @@
 
-[hub]: https://hub.docker.com/r/lsioarmhf/tt-rss/
-
-
 # sergiucc/tt-rss
 
 [Tiny Tiny RSS][appurl] is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
@@ -72,6 +69,7 @@ The site files are in /config/www/tt-rss , you can find config files and themes 
 
 ## Versions
 
++ **31.12.19:** Rebase to alpine 3.9.
 + **31.12.19:** Forked project and removed deprecation notices
 + **21.08.18:** Rebase to alpine 3.8.
 + **08.01.18:** Rebase to alpine 3.7.

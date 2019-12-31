@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.nginx.armhf:3.8
+FROM lsiobase/alpine.nginx.armhf:3.9
 
 # set version label
 LABEL maintainer="sergiucc"
